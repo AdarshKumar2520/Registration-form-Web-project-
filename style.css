@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans&family=Poppins:wght@400;500;600&family=Spartan:wght@200;300;400;500;600;700;800;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  background: #fff;
+}
+
+.table-edit {
+  width: 750px;
+  margin: 40px 20px;
+}
+
+form {
+  background-color: #33cfff;
+  display: flex;
+  justify-content: center;
+}
+
+td {
+  width: 300px;
+  padding: 10px 5px;
+}
+
+.sub-btn {
+  display: block;
+  justify-content: center;
+  width: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 5px;
+  cursor: pointer;
+  border: 2px solid black;
+  border-radius: 5px;
+}
+
+#sel {
+  width: 382px;
+  padding: 2px 5px;
+  border: 2px solid black;
+  border-radius: 5px;
+}
+input {
+  padding: 2px 5px;
+}
+.sub-btn:hover {
+  background: #33cfff;
+  color: white;
+  border-color: #33cfff;
+}
+#texArea {
+  padding: 2px 5px;
+}
+#heading {
+  display: flex;
+  justify-content: center;
+}
+hr {
+  border: 2px solid black;
+}
