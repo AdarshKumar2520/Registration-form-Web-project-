@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Registration form</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+
+    <form action="">
+        <table border="0" class="table-edit">
+            <!-- for Title -->
+            <tr>
+                <td colspan="2">
+                    <h1 id="heading">Registration form</h1>
+                    <hr>
+                </td>
+
+            </tr>
+            <!-- Upload image -->
+            <tr>
+                <td><label for="name">Upload Pic </label></td>
+                <td><input id="image" type="file" name="profile_photo" placeholder="Photo" required accept="image/*">
+                </td>
+            </tr>
+            <!-- Student name -->
+            <tr>
+                <td><label for="name">Name </label></td>
+                <td><input type="text" name="" id="sel" required /></td>
+            </tr>
+            <!-- Father's name -->
+            <tr>
+                <td><label for="name">Father's Name </label></td>
+                <td><input type="text" name="" id="sel" required /></td>
+            </tr>
+            <!-- Mother's name -->
+            <tr>
+                <td><label for="name">Mother's Name </label></td>
+                <td><input type="text" name="" id="sel" required /></td>
+            </tr>
+            <!-- Gender input -->
+            <tr>
+                <td><label for="name">Gender </label></td>
+                <td>
+                    <div id="">
+                        <input type="radio" name="Gender" id="" />
+                        <span>Male</span> &nbsp; &nbsp; &nbsp;
+                        <input type="radio" name="Gender" id="" />
+                        <span>Female</span>
+                    </div>
+
+                </td>
+            </tr>
+            <!-- take input -->
+            <tr>
+                <td><label for="DOB">D.O.B</label></td>
+                <td><input type="date" name="" id="sel" required /></td>
+            </tr>
+            <!-- select blood group -->
+            <tr>
+                <td><label for="blood">Blood Group</label></td>
+                <td>
+                    <select name="blood" id="sel">
+                        <option value="">choose</option>
+                        <option value="">O+</option>
+                        <option value="">O-</option>
+                        <option value="">A+</option>
+                        <option value="">A-</option>
+                        <option value="">B+</option>
+                        <option value="">B-</option>
+                        <option value="">AB+</option>
+                        <option value="">AB-</option>
+                    </select>
+                </td>
+            </tr>
+            <!--Roll no -->
+            <tr>
+                <td><label for="RollNo">AKTU Roll No.</label></td>
+                <td><input type="number" name="" id="sel" required /></td>
+            </tr>
+            <!-- Input College name -->
+            <tr>
+                <td><label for="Clgname">College Name</label></td>
+                <td><input type="text" name="" id="sel" required /></td>
+            </tr>
+            <!-- select branch -->
+            <tr>
+                <td><label for="Course">Branch</label></td>
+                <td>
+                    <select name="branch" id="sel" required>
+                        <option value="">choose</option>
+                        <option value="">Mechanical Engineering</option>
+                        <option value="">Civil Engineering</option>
+                        <option value="">Electrical Engineering</option>
+                        <option value="">Electronics and Communication Engineering</option>
+                        <option value="">Production and Industrial Engineering</option>
+                        <option value="">Computer science and Engineering</option>
+                        <option value="">Instrumentation Engineering</option>
+                    </select>
+                </td>
+            </tr>
+            <!-- semester -->
+            <tr>
+                <td><label for="sem">Semester</label></td>
+                <td><input type="number" name="" id="sel" required /></td>
+            </tr>
+            <!-- input Mobile number -->
+            <tr>
+                <td><label for="Mobile">Mobile No.</label></td>
+                <td><input type="number" name="" id="sel" required /></td>
+            </tr>
+            <!-- input Email Id -->
+            <tr>
+                <td><label for="Email">Email Id </label></td>
+                <td><input type="email" name="" id="sel" required /></td>
+            </tr>
+            <!-- inptu address -->
+            <tr>
+                <td><label for="addr">Address</label></td>
+                <td><textarea name="addr" id="texArea" cols="60" rows="5" required></textarea></td>
+            </tr>
+            <!-- input City -->
+            <tr>
+                <td><label for="City">City </label></td>
+                <td>
+                    <select name="City" id="sel" required>
+                        <option value="">choose</option>
+                        <option value="">Allahabad</option>
+                        <option value="">Kanpur</option>
+                        <option value="">Pratapgarh</option>
+                        <option value="">Lucknow</option>
+                        <option value="">Azamgarh</option>
+                        <option value="">Bareli</option>
+                        <option value="">Banda</option>
+                    </select>
+                </td>
+            </tr>
+
+            <!--input state -->
+            <tr>
+                <td><label for="State">State </label></td>
+                <td>
+                    <select name="State" id="sel" required>
+                        <option value="default">choose</option>
+
+                        <option value="AR">Arunachal Pradesh</option>
+                        <option value="AS">Assam</option>
+                        <option value="BR">Bihar</option>
+
+                        <option value="DL">Delhi</option>
+                        <option value="GA">Goa</option>
+
+                        <option value="JH">Jharkhand</option>
+                        <option value="KA">Karnataka</option>
+                        <option value="TN">Tamil Nadu</option>
+                        <option value="TG">Telangana</option>
+                        <option value="TR">Tripura</option>
+                        <option value="UP">Uttar Pradesh</option>
+                        <option value="UT">Uttarakhand</option>
+                    </select>
+                </td>
+            </tr>
+            <!-- select contry -->
+            <tr>
+                <td><label for="Country">Country </label></td>
+                <td>
+                    <select name="Country" id="sel" required>
+                        <option value="default">choose</option>
+                        <option value="India">India</option>
+                        <option value="US">United States</option>
+                        <option value="England">England</option>
+                    </select>
+                </td>
+            </tr>
+
+            <!--input pincode -->
+            <tr>
+                <td><label for="pincode">Pincode</label></td>
+                <td><input type="number" name="" id="sel" required /></td>
+            </tr>
+            <!--  submit button -->
+            <tr>
+                <td colspan="2"> <input type="submit" value="SUBMIT" class="sub-btn"></td>
+
+            </tr>
+        </table>
+
+
+
+    </form>
+
+
+</body>
+
+</html>
